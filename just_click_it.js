@@ -1,0 +1,11 @@
+document.write("<div id=\"esc\" style=\"position:absolute;\"><input type=\"button\" onfocus=\"nokp();\" onclick=\"window.location=\'?key=ee05\';\" value=\"click me!\"></div><input type=\"text\" readonly style=\"width:350;\" id=\"hint\" value=\"do you want to join? catch button, if you can!\">");
+obj=document.getElementById("esc");
+document.onmousemove=escdiv;
+document.onkeypress=nokp;
+obj.style.left=-200;
+obj.style.top=-200;
+var i=0,ax=0,ay=200,sw=1,r=200;
+document.getElementById('esc').style.top=-500;
+document.oncontextmenu=nokp;
+document.onselectstart=nokp;
+document.ondragstart=nokp;
